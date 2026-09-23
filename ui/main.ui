@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>389</width>
+    <height>253</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Погода</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(170, 255, 255);</string>
+  </property>
+  <widget class="QPushButton" name="settings_btn">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>10</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>Настройки</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>50</y>
+     <width>291</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <kerning>true</kerning>
+    </font>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label_city_name">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+        <kerning>true</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string>Город</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="description_label">
+      <property name="font">
+       <font>
+        <kerning>true</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string>Погода</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="temperature_label">
+      <property name="font">
+       <font>
+        <kerning>true</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string>Температура</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
